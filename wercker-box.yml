@@ -1,6 +1,6 @@
 name: android-retrolambda
 version: 0.0.1
-inherits: wercker:android@1.0.4
+inherits: wercker/android@1.0.4
 type: main
 platform: ubuntu@12.04
 description: Extending wercker/android to support Retrolambda and JDK8
