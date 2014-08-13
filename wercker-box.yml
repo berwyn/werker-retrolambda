@@ -1,9 +1,9 @@
 name: android-retrolambda
 version: 0.0.1
-inherits: werker:android@1.0.4
+inherits: wercker:android@1.0.4
 type: main
 platform: ubuntu@12.04
-description: Extending werker/android to support Retrolambda and JDK8
+description: Extending wercker/android to support Retrolambda and JDK8
 keywords:
 	- android
 	- retrolambda
@@ -13,3 +13,4 @@ script: |
 	sudo apt-get update -y
 	echo oracle-java8-installer shared/accepted-oracle-license-v1-1 select true | sudo /usr/bin/debconf-set-selections
 	sudo apt-get install oracle-java8-installer -y
+	sudo apt-get install oracle-java8-set-default
