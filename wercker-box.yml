@@ -7,7 +7,8 @@ description: Extending wercker/android to support Retrolambda and JDK8
 keywords:
 	- android
 	- retrolambda
-	- java
+	- java 8
+	- java 7
 script: |
 	sudo add-apt-repository ppa:webupd8team/java -y
 	sudo apt-get update -y
